@@ -45,3 +45,103 @@ li {
     font-size: 18px;
     text-decoration: inherit;
 }
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #eaeaea;
+}
+
+
+/*O container pega a página toda e não precisa estar no header (pois ele é o cabeçalho), ele faz a adaptação disposotivo para não desconfigurar*/
+
+.container {
+    margin-right: auto;
+    /*margem automatica para todos os lados*/
+    margin-left: auto;
+    /*margem esquerda*/
+    max-width: 960px;
+    /*margem automatica para todos os lados*/
+    padding-left: 100px;
+    /*espaçamento esquerdo*/
+    padding-right: 100px;
+    /*espaçamento direito*/
+    width: 100%;
+    /*largura*/
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    /*o column é uma coluna, um embaixo do outro*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*tudo o que tem dentro fica centralizado*/
+}
+
+.nome-completo {
+    font-size: 36px;
+    color: #ff4dbc;
+    font-weight: 700;
+    height: 45px;
+    /*altura da letra*/
+}
+
+.profissao {
+    font-size: 20px;
+    line-height: 32px;
+    color: #c6b5d5;
+}
+
+.article-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: #ff4dbc;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #661e4b;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #2f80ed;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.wrapper-portifolio {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
