@@ -80,12 +80,26 @@ li {
     /*tudo o que tem dentro fica centralizado*/
 }
 
+.subcontainer-principal img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-end-start-radius: 50%;
+}
+
 .nome-completo {
     font-size: 36px;
     color: #ff4dbc;
     font-weight: 700;
     height: 45px;
     /*altura da letra*/
+}
+
+.descricao {
+    text-align: center;
 }
 
 .profissao {
@@ -144,4 +158,26 @@ li {
     font-size: 18px;
     color: #828282;
     font-weight: 500;
+}
+
+.rodape {
+    display: flex;
+    background-color: #724796;
+    flex-direction: column;
+    padding: 100px;
+    /*o padding é o espaçamento dos 4 cantos*/
+}
+
+.sub-rodape ul li {
+    color: #fff;
+    padding-left: 50px;
+    line-height: 50px;
+    text-decoration: #fdfeff;
+}
+
+a:link,
+a:visited {
+    color: rgb(190, 101, 186);
+    text-decoration: underline;
+    cursor: auto;
 }
